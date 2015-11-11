@@ -1,0 +1,9 @@
+AuthUserFile /webpages/aprabhak/softwarepassword/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Please enter credentials"
+AuthType Basic
+Require valid-user
+<Files "new_waitlist.csv">
+	Order Deny,Allow
+	Allow from All
+</Files>

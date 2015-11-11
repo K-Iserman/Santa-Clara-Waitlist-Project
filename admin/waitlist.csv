@@ -1,0 +1,9 @@
+First Name, Last Name, ID, Email, Reason, Course
+
+"First Name"," Last Name"," ID"," Email"," Reason"," Course"
+alberto,diaz,W0123456,adiaztostado@scu.edu,"i need it","COEN12 - 30997 - Abstract Data Types&Structures - Yuhong Liu"
+"First Name"," Last Name"," ID"," Email"," Reason"," Course"
+alberto,diaz,W0123456,adiaztostado@scu.edu,"i need it","COEN11 - 30947 - Advanced Programming - Ha Yang Kim"
+alberto,diaz,W0123456,adiaztostado@scu.edu,"i need it","COEN21 - 30981 - Introduction to Logic Design - Shoba Krishnan"
+sdf,sfg,W1234567,asd@ad,asd,default
+sdf,sfg,W1234567,asd@ad,asd,"COEN11 - 30947 - Advanced Programming - Ha Yang Kim"

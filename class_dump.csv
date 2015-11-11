@@ -1,0 +1,73 @@
+COEN10,30972,"Introduction to Programming",Danielson,"Ronald L"
+COEN10L,30973,"Intro to Programming Lab",Danielson,"Ronald L"
+COEN11,30943,"Advanced Programming",Figueira,"Silvia Maria B"
+COEN11,30947,"Advanced Programming",Kim,"Ha Yang"
+COEN11L,30952,"Advanced Programming Lab",Figueira,"Silvia Maria B"
+COEN11L,30953,"Advanced Programming Lab",Kim,"Ha Yang"
+COEN11L,30954,"Advanced Programming Lab",Kim,"Ha Yang"
+COEN11L,30968,"Advanced Programming Lab",Kim,"Ha Yang"
+COEN12,30997,"Abstract Data Types&Structures",Liu,Yuhong
+COEN12L,30998,"Abstr Data Types&StructuresLab",Liu,Yuhong
+COEN12L,30999,"Abstr Data Types&StructuresLab",Liu,Yuhong
+COEN20,32295,"Intro to Embedded Systems",Amouzgar,"Mahmoud Moe"
+COEN20L,32296,"Comp Org & Emb Sys Lab",Amouzgar,"Mahmoud Moe"
+COEN20L,32297,"Comp Org & Emb Sys Lab",Amouzgar,"Mahmoud Moe"
+COEN21,30981,"Introduction to Logic Design",Krishnan,Shoba
+COEN21,31004,"Introduction to Logic Design",Kim,"Ha Yang"
+COEN21,32110,"Introduction to Logic Design",Ogunfunmi,Tokunbo
+COEN21,30981,"Introduction to Logic Design",Krishnan,Shoba
+COEN21,31004,"Introduction to Logic Design",Kim,"Ha Yang"
+COEN21,32110,"Introduction to Logic Design",Ogunfunmi,Tokunbo
+COEN21L,30982,"Logic Design Lab",Krishnan,Shoba
+COEN21L,30983,"Logic Design Lab",Krishnan,Shoba
+COEN21L,30987,"Logic Design Lab",Krishnan,Shoba
+COEN21L,31005,"Logic Design Lab",Krishnan,Shoba
+COEN21L,32111,"Logic Design Lab",Krishnan,Shoba
+COEN44,30940,"Applied Programming in C",Danielson,"Ronald L"
+COEN44L,30950,"Applied Programming in C Lab",Danielson,"Ronald L"
+COEN44L,30951,"Applied Programming in C Lab",Danielson,"Ronald L"
+COEN45,30946,"Applied Programming in MATLAB",Wang,Yuan
+COEN45,30988,"Applied Programming in MATLAB",Wang,Yuan
+COEN45L,30955,"Applied Program in MATLAB Lab",Wang,Yuan
+COEN45L,30956,"Applied Program in MATLAB Lab",Wang,Yuan
+COEN45L,30989,"Applied Program in MATLAB Lab",Wang,Yuan
+COEN70,30944,"Form Spec & Adv Data Struc",Zimdars,"Leyna Carine Cotran"
+COEN70,30977,"Form Spec & Adv Data Struc",Vu,"Hien T"
+COEN70L,30957,"Form Spec & Adv Data Struc Lab",Zimdars,"Leyna Carine Cotran"
+COEN70L,30958,"Form Spec & Adv Data Struc Lab",Zimdars,"Leyna Carine Cotran"
+COEN70L,30978,"Form Spec & Adv Data Struc Lab",Zimdars,"Leyna Carine Cotran"
+COEN70L,30990,"Form Spec & Adv Data Struc Lab",Zimdars,"Leyna Carine Cotran"
+COEN123,32870,Mechatronics,Wolfe,Andrew
+COEN123L,32871,"Mechatronics Lab",Wolfe,Andrew
+COEN146,30941,"Computer Networks",Amer,"Ahmed M"
+COEN146,30969,"Computer Networks",Amouzgar,"Mahmoud Moe"
+COEN146L,30959,"Computer Networks Lab",Amer,"Ahmed M"
+COEN146L,30960,"Computer Networks Lab",Amouzgar,"Mahmoud Moe"
+COEN146L,30970,"Computer Networks Lab",Amouzgar,"Mahmoud Moe"
+COEN161,32298,"Web Programming I",Mikkilineni,Rani
+COEN161L,32299,"Web Programming I Lab",Mikkilineni,Rani
+COEN161L,32300,"Web Programming I Lab",Mikkilineni,Rani
+COEN163,30963,"Web Usability",Steichen,Ben
+COEN163L,30964,"Web Usability Lab",Steichen,Ben
+COEN163L,30975,"Web Usability Lab",Steichen,Ben
+COEN171,30974,"Prin Des& Impl Prog Lang",Pantoja,Maria
+COEN171,30979,"Prin Des& Impl Prog Lang",Pantoja,Maria
+COEN175,30942,"Int/Fml Lng Thy&Cmplcnst",Atkinson,"Darren C"
+COEN175,30991,"Int/Fml Lng Thy&Cmplcnst",Atkinson,"Darren C"
+COEN175L,30961,"Int/Fml Lng Thy&Cmplcnst Lab",Atkinson,"Darren C"
+COEN175L,30962,"Int/Fml Lng Thy&Cmplcnst Lab",Atkinson,"Darren C"
+COEN175L,30992,"Int/Fml Lng Thy&Cmplcnst Lab",Atkinson,"Darren C"
+COEN177,32301,"Operating Systems",Amer,"Ahmed M"
+COEN177L,32302,"Operating Systems Lab",Amer,"Ahmed M"
+COEN177L,32303,"Operating Systems Lab",Amer,"Ahmed M"
+COEN179,30965,"Theory of Algorithms",Walden,"Byron L"
+COEN195,30945,"Design Project II",Pantoja,Maria
+COEN195,30948,"Design Project II",Atkinson,"Darren C"
+COEN195,30949,"Design Project II",Amouzgar,"Mahmoud Moe"
+COEN195,30966,"Design Project II",Amer,"Ahmed M"
+COEN195,30971,"Design Project II",Shang,Weijia
+COEN195,30976,"Design Project II",Figueira,"Silvia Maria B"
+COEN195,30980,"Design Project II",Steichen,Ben
+COEN195,30984,"Design Project II",Kitts,"Christopher A"
+COEN195,30993,"Design Project II",Liu,Yuhong
+COEN195,32448,"Design Project II",Danielson,"Ronald L"
