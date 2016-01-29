@@ -1,3 +1,4 @@
+#change to path to .htpasswd file
 AuthUserFile /webpages/aprabhak/softwarepassword/.htpasswd
 AuthGroupFile /dev/null
 AuthName "Please enter credentials"

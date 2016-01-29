@@ -12,6 +12,8 @@
 $ini_array = parse_ini_file("config.ini");
 //print_r($ini_array);
 
+//delete the current waitlist
+
 $term = $_POST['term'];
 $wsdl = $ini_array['URL'];
 $client = new SoapClient($wsdl);
@@ -31,8 +33,8 @@ $schools = $results->data;
     $results = $client->__soapCall('qSubjects', $args);
     $subjects = $results->data;
 
-    //foreach($subjects as $subject) { 
-		$subjectid = "COEN"; //$subject[0]; //can scale out to entire school by replacing with subject[0] 
+    foreach($subjects as $subject) { 
+		$subjectid = $subject[0]; //can scale out to entire school by replacing with subject[0] 
 
 		//echo "$subjectid\n";
 		$args = array('subjectid' => $subjectid, 'term' => $term);
@@ -53,7 +55,7 @@ $schools = $results->data;
 			foreach ($array as $section) {
 				//print_r($section);
 				// section[0] = section number, section[19] = course , section[9] = title, section[14] instructor
-				$CSV_courses[] = "$section[19],$section[0],$section[9],$section[14]";
+				$CSV_courses[] = "$section[19],$section[0],$section[9],$section[14],$section[6]";
 			}
 		}
 
@@ -67,13 +69,13 @@ $schools = $results->data;
 			}
 		fclose($file);	
 		header("Location: admin/admin.php");
-		exit();
+		//exit();
 	    }
 	    else {
 	    	echo "Error locking file\n";
 	    }
-		fclose($file);
-	//}
+		//fclose($file);
+	}
 //}
 	
 ?>

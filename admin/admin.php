@@ -19,7 +19,66 @@
     body > div:first-child {
       padding: 10px;
     }
-  </style>
+  </style> 
+
+  <script type="text/javascript">
+
+  function trigger() {
+    var selection = document.getElementById("departmentSelect").selectedIndex;
+    var request;
+    var courses = new Array();
+    request = $.ajax({
+      url:"../student/course_get.php",
+      type: "POST",
+      dataType: "json",
+      data: {departmentSelected: selection},
+      success: function(arrayReturned){
+        $("#classSelect").empty();
+        console.log(arrayReturned);
+        courses = arrayReturned;
+        var i;
+        for(i=0; i < courses.length; i++){
+       	  $("#classSelect").append('<option value="' + courses[i] + '">' + courses[i] + '</option>');
+
+	 }
+      },
+      error:function(jqXHR, textStatus, errorThrown){
+        console.log(JSON.stringify(jqXHR));
+      }
+    });
+  }
+
+
+
+  function sendClass(){
+	var selection = $("#classSelect").val();
+	//Send selection over to php.
+	                $("#headerEmpty").empty();
+                $("#headerEmpty").append(selection.split("-")[0]);
+
+	 request = $.ajax({
+	      url:"getWaitlist.php",
+	      type: "POST",
+	      dataType: "json",
+	      data: {classSelected: selection},
+	      success: function(arrayReturned){
+		$("#waitlistBody").empty();
+		console.log(arrayReturned);
+	        var waitlist = arrayReturned;
+		var i;
+	        for(i=0; i < waitlist.length; i++){	
+			$("#waitlistBody").append(waitlist[i]);				     		  	  	
+    	  	}
+	      },
+    	      error:function(jqXHR, textStatus, errorThrown){
+        		console.log(JSON.stringify(jqXHR));
+      		}
+	 });	
+  }
+
+
+</script>
+
 </head>
 
 <body>
@@ -28,37 +87,36 @@
 	<div class="btn-group" role="group" aria-label="...">
                 <a href="../student/student.php"><button type="button" class="btn btn-default">Students</button></a>
                 <a href="admin.php"><button type="button" class="btn btn-default">Admins</button></a>
-		<a href="settings.php"><button type="button" class="btn btn-default">Update Quarter</button></a>
+	    		<a href="waitlist.csv"><button type="submit" class="btn btn-default">Export All Waitlists</button></a>
+				<a href="settings.php"><button type="button" class="btn btn-default">Settings</button></a>
         </div>
+	</form>
 
   </div>
-  <!--<div class="dropdown">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select the course you wish to view <span class="caret"></span></button>
-    <ul class="dropdown-menu">
-      <?php
-        //generate dropdown using course csv
-        $file = fopen("../class_dump.csv", "r");
-        if(flock($file, LOCK_SH)) {
-          while(!feof($file)) {
-            $CSV_courses = fgetcsv($file);
-            //print_r($CSV_courses);
-            echo "<li><a href='$CSV_courses[0] - $CSV_courses[1] - $CSV_courses[2] - $CSV_courses[4] $CSV_courses[3]'>$CSV_courses[0] - $CSV_courses[1] - $CSV_courses[2] - $CSV_courses[4] $CSV_courses[3]</a></li>\n";
-          }
-        }
-        else {
-          echo "Error locking file\n";
-        }
-        fclose($file);
-      ?>
-    </ul>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <select onChange="trigger();" id="departmentSelect" name="department" class="btn btn-default">
+		<option value="default">Select a department</option>
+		<option value="coen"> COEN </option>
+		<option value="elen"> ELEN </option>
+		<option value="ceng"> CENG </option>
+		<option value="bioe"> BIOE </option>
+		<option value="mech"> MECH </option>
+		<option value="engr"> ENGR </option>
+		<option value="amth"> AMTH </option>
+	</select>
   </div>
 
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+  	<select onChange="sendClass();" id="classSelect" name="course" class="btn btn-default">
+		<option value="default">Select a class</option>
+	</select>
+  </div>
   <br>
 
-  <h1>COEN 12</h1>
-  
+  <h1 id="headerEmpty"> </h1>
+ 
   <div class="table-responsive">          
-    <table class="table">
+    <table id="waitlistTable" class="table">
       <thead>
         <tr>
           <th>#</th>
@@ -69,27 +127,10 @@
           <th>Reason</th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>Sample</td>
-          <td>Student</td>
-          <td>W0350000</td>
-          <td>sstudent@scu.edu</td>
-          <td>I need it.</td>
-        </tr>
+      <tbody id="waitlistBody">
       </tbody>
     </table>
-  </div> -->
+  </div>
   
-  <br>
-	<form method="get" action="waitlist.csv">
-	  <div class="btn-group">
-	    <button type="submit" class="btn btn-default">Export this waitlist</button>
-	  </div>
-	</form>
-	<!--<div class="btn-group">
-	 <button type="button" class="btn btn-default">Logout</button>
-	</div> -->
 </body>
 </html>

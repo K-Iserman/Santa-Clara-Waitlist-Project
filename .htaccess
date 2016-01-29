@@ -1,2 +1,3 @@
 AddType application/crap .php
-Action application/crap /~adiaztos/php_test/cgi-bin/php-cgi.cgi
+#change the path to the path to php_test from you web directory
+Action application/crap /php_test/cgi-bin/php-cgi.cgi

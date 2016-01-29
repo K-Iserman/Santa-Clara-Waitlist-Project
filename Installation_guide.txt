@@ -1,0 +1,42 @@
+Santa Clara University
+Waitlist Application
+(c) 2015 Adithya Prabhakaran, Alberto Diaz, Kirk Iserman
+
+This system was designed and implemented in the Linux environment for use on the Santa Clara University's Engineering Computing Center.
+
+System Requirements:
+Linux Operating System
+Apache Webserver
+PHP 5
+
+**Note** The implementation uses the PHP SoapClient module (Available PHP 5.0.1 or later)
+	 At the time the system was developed, the Engineering Computing Center did NOT have the module installed.
+	 To work around this, we compiled a cgi executable of PHP with the module enabled (included with the source)
+	 To use this module, please follow the instructions in step 4 to modify the appropriate .htaccess files to enable 
+	 use of the included PHP version. Otherwise, remove the file to prevent the system from using the local PHP version.
+
+Installation
+
+1. Copy the [name] directory into your web directory.
+
+2. Create a .htpasswd file using this command:
+	
+	htpasswd -c /path/of/your/choice/.htpasswd user1
+	
+   You will be prompted to enter a password for that user
+  
+   To add additional users use the same command with out the "-c" option
+
+	htpasswd /path/of/your/choice/.htpasswd user2
+
+3. In the admin directory
+
+	- edit the .htaccess file and change the path to the .htpasswd file you created earlier
+
+4. In the php_test directory
+
+	- edit the .htaccess file and change the Action path to the path WITHIN your web directory
+	
+		/path/in/web/directory/php_test/cgi-bin/php-cgi.cgi
+
+5. Navigate to your  your.server.address/php_test/student/student.php and verify that the application is working by checking both student and admin portals

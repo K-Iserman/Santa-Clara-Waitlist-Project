@@ -1,73 +1,233 @@
-COEN10,30972,"Introduction to Programming",Danielson,"Ronald L"
-COEN10L,30973,"Intro to Programming Lab",Danielson,"Ronald L"
-COEN11,30943,"Advanced Programming",Figueira,"Silvia Maria B"
-COEN11,30947,"Advanced Programming",Kim,"Ha Yang"
-COEN11L,30952,"Advanced Programming Lab",Figueira,"Silvia Maria B"
-COEN11L,30953,"Advanced Programming Lab",Kim,"Ha Yang"
-COEN11L,30954,"Advanced Programming Lab",Kim,"Ha Yang"
-COEN11L,30968,"Advanced Programming Lab",Kim,"Ha Yang"
-COEN12,30997,"Abstract Data Types&Structures",Liu,Yuhong
-COEN12L,30998,"Abstr Data Types&StructuresLab",Liu,Yuhong
-COEN12L,30999,"Abstr Data Types&StructuresLab",Liu,Yuhong
-COEN20,32295,"Intro to Embedded Systems",Amouzgar,"Mahmoud Moe"
-COEN20L,32296,"Comp Org & Emb Sys Lab",Amouzgar,"Mahmoud Moe"
-COEN20L,32297,"Comp Org & Emb Sys Lab",Amouzgar,"Mahmoud Moe"
-COEN21,30981,"Introduction to Logic Design",Krishnan,Shoba
-COEN21,31004,"Introduction to Logic Design",Kim,"Ha Yang"
-COEN21,32110,"Introduction to Logic Design",Ogunfunmi,Tokunbo
-COEN21,30981,"Introduction to Logic Design",Krishnan,Shoba
-COEN21,31004,"Introduction to Logic Design",Kim,"Ha Yang"
-COEN21,32110,"Introduction to Logic Design",Ogunfunmi,Tokunbo
-COEN21L,30982,"Logic Design Lab",Krishnan,Shoba
-COEN21L,30983,"Logic Design Lab",Krishnan,Shoba
-COEN21L,30987,"Logic Design Lab",Krishnan,Shoba
-COEN21L,31005,"Logic Design Lab",Krishnan,Shoba
-COEN21L,32111,"Logic Design Lab",Krishnan,Shoba
-COEN44,30940,"Applied Programming in C",Danielson,"Ronald L"
-COEN44L,30950,"Applied Programming in C Lab",Danielson,"Ronald L"
-COEN44L,30951,"Applied Programming in C Lab",Danielson,"Ronald L"
-COEN45,30946,"Applied Programming in MATLAB",Wang,Yuan
-COEN45,30988,"Applied Programming in MATLAB",Wang,Yuan
-COEN45L,30955,"Applied Program in MATLAB Lab",Wang,Yuan
-COEN45L,30956,"Applied Program in MATLAB Lab",Wang,Yuan
-COEN45L,30989,"Applied Program in MATLAB Lab",Wang,Yuan
-COEN70,30944,"Form Spec & Adv Data Struc",Zimdars,"Leyna Carine Cotran"
-COEN70,30977,"Form Spec & Adv Data Struc",Vu,"Hien T"
-COEN70L,30957,"Form Spec & Adv Data Struc Lab",Zimdars,"Leyna Carine Cotran"
-COEN70L,30958,"Form Spec & Adv Data Struc Lab",Zimdars,"Leyna Carine Cotran"
-COEN70L,30978,"Form Spec & Adv Data Struc Lab",Zimdars,"Leyna Carine Cotran"
-COEN70L,30990,"Form Spec & Adv Data Struc Lab",Zimdars,"Leyna Carine Cotran"
-COEN123,32870,Mechatronics,Wolfe,Andrew
-COEN123L,32871,"Mechatronics Lab",Wolfe,Andrew
-COEN146,30941,"Computer Networks",Amer,"Ahmed M"
-COEN146,30969,"Computer Networks",Amouzgar,"Mahmoud Moe"
-COEN146L,30959,"Computer Networks Lab",Amer,"Ahmed M"
-COEN146L,30960,"Computer Networks Lab",Amouzgar,"Mahmoud Moe"
-COEN146L,30970,"Computer Networks Lab",Amouzgar,"Mahmoud Moe"
-COEN161,32298,"Web Programming I",Mikkilineni,Rani
-COEN161L,32299,"Web Programming I Lab",Mikkilineni,Rani
-COEN161L,32300,"Web Programming I Lab",Mikkilineni,Rani
-COEN163,30963,"Web Usability",Steichen,Ben
-COEN163L,30964,"Web Usability Lab",Steichen,Ben
-COEN163L,30975,"Web Usability Lab",Steichen,Ben
-COEN171,30974,"Prin Des& Impl Prog Lang",Pantoja,Maria
-COEN171,30979,"Prin Des& Impl Prog Lang",Pantoja,Maria
-COEN175,30942,"Int/Fml Lng Thy&Cmplcnst",Atkinson,"Darren C"
-COEN175,30991,"Int/Fml Lng Thy&Cmplcnst",Atkinson,"Darren C"
-COEN175L,30961,"Int/Fml Lng Thy&Cmplcnst Lab",Atkinson,"Darren C"
-COEN175L,30962,"Int/Fml Lng Thy&Cmplcnst Lab",Atkinson,"Darren C"
-COEN175L,30992,"Int/Fml Lng Thy&Cmplcnst Lab",Atkinson,"Darren C"
-COEN177,32301,"Operating Systems",Amer,"Ahmed M"
-COEN177L,32302,"Operating Systems Lab",Amer,"Ahmed M"
-COEN177L,32303,"Operating Systems Lab",Amer,"Ahmed M"
-COEN179,30965,"Theory of Algorithms",Walden,"Byron L"
-COEN195,30945,"Design Project II",Pantoja,Maria
-COEN195,30948,"Design Project II",Atkinson,"Darren C"
-COEN195,30949,"Design Project II",Amouzgar,"Mahmoud Moe"
-COEN195,30966,"Design Project II",Amer,"Ahmed M"
-COEN195,30971,"Design Project II",Shang,Weijia
-COEN195,30976,"Design Project II",Figueira,"Silvia Maria B"
-COEN195,30980,"Design Project II",Steichen,Ben
-COEN195,30984,"Design Project II",Kitts,"Christopher A"
-COEN195,30993,"Design Project II",Liu,Yuhong
-COEN195,32448,"Design Project II",Danielson,"Ronald L"
+AMTH106,30635,"Differential Equations",Metwally,"Magda M",AMTH
+AMTH106,30636,"Differential Equations",Metwally,"Magda M",AMTH
+AMTH106,30638,"Differential Equations",Metwally,"Magda M",AMTH
+AMTH106,30639,"Differential Equations",Melman,Aaron,AMTH
+AMTH106,32109,"Differential Equations",Melman,Aaron,AMTH
+AMTH108,30637,"Probability & Statistics",,AMTH
+AMTH108,30641,"Probability & Statistics",Kleinhenz,"Robert J",AMTH
+AMTH108,32371,"Probability & Statistics",Kleinhenz,"Robert J",AMTH
+AMTH108H,30640,"Probability & Statistics:Honor",Kleinhenz,"Robert J",AMTH
+AMTH112,32276,"Risk Analysis in Civil Engr",Chiappari,"Stephen A",AMTH
+BIOE22,30729,"Introduction to Cell and Molec",Lu,Biao,BIOE
+BIOE22L,30730,"Intro to Cell & Molec Bioe Lab",Lu,Biao,BIOE
+BIOE22L,30732,"Intro to Cell & Molec Bioe Lab",Lu,Biao,BIOE
+BIOE100,30731,"Bioengineering Research Semina",Noriega,"Gerardo V",BIOE
+BIOE107,30724,"Medical Device Prod Devlopment",Davison,"Paul Owen",BIOE
+BIOE108,30734,"Biomedical Devices: Role of Po",Manickam,"Sathish Kumar",BIOE
+BIOE115,32592,"Fundamentals of Cell Culture",Asuri,Prashanth,BIOE
+BIOE115L,32593,"Fundamentals of Cell Culture L",Asuri,Prashanth,BIOE
+BIOE115L,32594,"Fundamentals of Cell Culture L",Asuri,Prashanth,BIOE
+BIOE140,32279,"Biomaterials Engr. and Charact",Mobed-Miremadi,Maryam,BIOE
+BIOE140L,32280,"Biomaterials Engr &Charact Lab",Mobed-Miremadi,Maryam,BIOE
+BIOE155,30722,"Biological Transport Phenomena",Kim,Unyoung,BIOE
+BIOE157,30727,"Introduction to Biofuel Engr",Mobed-Miremadi,Maryam,BIOE
+BIOE167,32595,"Medical Imaging Systems",Wood,"Sally L",BIOE
+BIOE174,32283,"Microfabrication & Microfluid",Araci,"Ismail Emre",BIOE
+BIOE174L,32316,"Microfabricat & Microfluid Lab",Araci,"Ismail Emre",BIOE
+BIOE174L,32908,"Microfabricat & Microfluid Lab",Araci,"Ismail Emre",BIOE
+BIOE176,30726,"Biomolecular Engineering II",Zhang,Zhiwen,BIOE
+BIOE178,32284,"Clinical Biomaterials",Zhang,Zhiwen,BIOE
+BIOE185,32596,"Physiology & Disease Biology",Hao,Ying,BIOE
+BIOE195,30723,"Design Project II",Araci,"Ismail Emre",BIOE
+CENG7,32369,"Graphic Communication",Nilsson,"Tonya L",CENG
+CENG7L,32370,"Graphic Communication Lab",Chowdhry,"Humza S",CENG
+CENG20,30830,Geology,Singh,Sukhmander,CENG
+CENG20,30839,Geology,Singh,Sukhmander,CENG
+CENG20L,30831,"Geology Lab",Singh,Sukhmander,CENG
+CENG20L,30832,"Geology Lab",Singh,Sukhmander,CENG
+CENG41,30820,"Mechanics I: Statics",Doyle,"Laura A",CENG
+CENG44A,30851,"Strength of Materials I",Serrette,"Reynaud L",CENG
+CENG119,30837,"Design Sustainable Construct",Walz,"Gary Lynn",CENG
+CENG121B,32757,"Geotechnical Engineering",Singh,Sukhmander,CENG
+CENG123,32285,"Environmental Reaction Engr",Chiesa,"Steven C",CENG
+CENG123L,32286,"Environmentl Reaction Engr Lab",Chiesa,"Steven C",CENG
+CENG125,30825,"Municipal Engineering Design",He,Rong,CENG
+CENG125,32589,"Municipal Engineering Design",He,Rong,CENG
+CENG125L,30833,"Municipal Engr Design Lab",He,Rong,CENG
+CENG125L,30834,"Municipal Engr Design Lab",He,Rong,CENG
+CENG135,30822,"Reinforced Concrete Design",Aschheim,"Mark A.",CENG
+CENG135L,30835,"Reinforced Concrete Design Lab",Aschheim,"Mark A.",CENG
+CENG137,32288,"Earthquake Engineering Design",Abbott,"Tracy S",CENG
+CENG141,30824,"Hydraulic Engr",Maurer,"Edwin P.",CENG
+CENG141L,32317,"Hydraulic Engineering Lab",Maurer,"Edwin P.",CENG
+CENG141L,32318,"Hydraulic Engineering Lab",Doyle,"Laura A",CENG
+CENG141L,32319,"Hydraulic Engineering Lab",Doyle,"Laura A",CENG
+CENG141L,32374,"Hydraulic Engineering Lab",Maurer,"Edwin P.",CENG
+CENG146,32590,"Dsgn Cold-Frmd Steel Frame Str",Serrette,"Reynaud L",CENG
+CENG151,32292,"Special Topics in Trans Engr",He,Rong,CENG
+CENG160,30838,"GIS in Water Resources",Maurer,"Edwin P.",CENG
+CENG184,30850,"Construction Administration",Said,"Hisham M",CENG
+CENG186,32293,"Constr Planning & Control",Said,"Hisham M",CENG
+CENG186L,32294,"Construction Plan & Contr Lab",Said,"Hisham M",CENG
+CENG192C,30826,"Develop of Construct Drawings",,CENG
+CENG192C,30829,"Develop of Construct Drawings",,CENG
+CENG193,30823,"Senior Design Project I",Aschheim,"Mark A.",CENG
+CENG193,30827,"Senior Design Project I",Chiesa,"Steven C",CENG
+CENG193,30828,"Senior Design Project I",He,Rong,CENG
+CENG193,30840,"Senior Design Project I",Maurer,"Edwin P.",CENG
+CENG193,30841,"Senior Design Project I",Serrette,"Reynaud L",CENG
+CENG193,30842,"Senior Design Project I",Singh,Sukhmander,CENG
+CENG193,30843,"Senior Design Project I",Said,"Hisham M",CENG
+CENG193,30844,"Senior Design Project I",Nilsson,"Tonya L",CENG
+CENG193,30846,"Senior Design Project I",Abbott,"Tracy S",CENG
+CENG193,30847,"Senior Design Project I",Doyle,"Laura A",CENG
+CENG44AL,30852,"Strength of Materials I Lab",Aschheim,"Mark A.",CENG
+COEN10,30972,"Introduction to Programming",Danielson,"Ronald L",COEN
+COEN10L,30973,"Intro to Programming Lab",Danielson,"Ronald L",COEN
+COEN11,30943,"Advanced Programming",Figueira,"Silvia Maria B",COEN
+COEN11,30947,"Advanced Programming",Kim,"Ha Yang",COEN
+COEN11L,30952,"Advanced Programming Lab",Figueira,"Silvia Maria B",COEN
+COEN11L,30953,"Advanced Programming Lab",Kim,"Ha Yang",COEN
+COEN11L,30954,"Advanced Programming Lab",Kim,"Ha Yang",COEN
+COEN11L,30968,"Advanced Programming Lab",Kim,"Ha Yang",COEN
+COEN12,30997,"Abstract Data Types&Structures",Liu,Yuhong,COEN
+COEN12L,30998,"Abstr Data Types&StructuresLab",Liu,Yuhong,COEN
+COEN12L,30999,"Abstr Data Types&StructuresLab",Liu,Yuhong,COEN
+COEN20,32295,"Intro to Embedded Systems",Amouzgar,"Mahmoud Moe",COEN
+COEN20L,32296,"Comp Org & Emb Sys Lab",Amouzgar,"Mahmoud Moe",COEN
+COEN20L,32297,"Comp Org & Emb Sys Lab",Amouzgar,"Mahmoud Moe",COEN
+COEN21,30981,"Introduction to Logic Design",Krishnan,Shoba,COEN
+COEN21,31004,"Introduction to Logic Design",Kim,"Ha Yang",COEN
+COEN21,32110,"Introduction to Logic Design",Ogunfunmi,Tokunbo,COEN
+COEN21,30981,"Introduction to Logic Design",Krishnan,Shoba,COEN
+COEN21,31004,"Introduction to Logic Design",Kim,"Ha Yang",COEN
+COEN21,32110,"Introduction to Logic Design",Ogunfunmi,Tokunbo,COEN
+COEN21L,30982,"Logic Design Lab",Krishnan,Shoba,COEN
+COEN21L,30983,"Logic Design Lab",Krishnan,Shoba,COEN
+COEN21L,30987,"Logic Design Lab",Krishnan,Shoba,COEN
+COEN21L,31005,"Logic Design Lab",Krishnan,Shoba,COEN
+COEN21L,32111,"Logic Design Lab",Krishnan,Shoba,COEN
+COEN44,30940,"Applied Programming in C",Danielson,"Ronald L",COEN
+COEN44L,30950,"Applied Programming in C Lab",Danielson,"Ronald L",COEN
+COEN44L,30951,"Applied Programming in C Lab",Danielson,"Ronald L",COEN
+COEN45,30946,"Applied Programming in MATLAB",Wang,Yuan,COEN
+COEN45,30988,"Applied Programming in MATLAB",Wang,Yuan,COEN
+COEN45L,30955,"Applied Program in MATLAB Lab",Wang,Yuan,COEN
+COEN45L,30956,"Applied Program in MATLAB Lab",Wang,Yuan,COEN
+COEN45L,30989,"Applied Program in MATLAB Lab",Wang,Yuan,COEN
+COEN70,30944,"Form Spec & Adv Data Struc",Zimdars,"Leyna Carine Cotran",COEN
+COEN70,30977,"Form Spec & Adv Data Struc",Vu,"Hien T",COEN
+COEN70L,30957,"Form Spec & Adv Data Struc Lab",Zimdars,"Leyna Carine Cotran",COEN
+COEN70L,30958,"Form Spec & Adv Data Struc Lab",Zimdars,"Leyna Carine Cotran",COEN
+COEN70L,30978,"Form Spec & Adv Data Struc Lab",Zimdars,"Leyna Carine Cotran",COEN
+COEN70L,30990,"Form Spec & Adv Data Struc Lab",Zimdars,"Leyna Carine Cotran",COEN
+COEN123,32870,Mechatronics,Wolfe,Andrew,COEN
+COEN123L,32871,"Mechatronics Lab",Wolfe,Andrew,COEN
+COEN146,30941,"Computer Networks",Amer,"Ahmed M",COEN
+COEN146,30969,"Computer Networks",Amouzgar,"Mahmoud Moe",COEN
+COEN146L,30959,"Computer Networks Lab",Amer,"Ahmed M",COEN
+COEN146L,30960,"Computer Networks Lab",Amouzgar,"Mahmoud Moe",COEN
+COEN146L,30970,"Computer Networks Lab",Amouzgar,"Mahmoud Moe",COEN
+COEN161,32298,"Web Programming I",Mikkilineni,Rani,COEN
+COEN161L,32299,"Web Programming I Lab",Mikkilineni,Rani,COEN
+COEN161L,32300,"Web Programming I Lab",Mikkilineni,Rani,COEN
+COEN163,30963,"Web Usability",Steichen,Ben,COEN
+COEN163L,30964,"Web Usability Lab",Steichen,Ben,COEN
+COEN163L,30975,"Web Usability Lab",Steichen,Ben,COEN
+COEN171,30974,"Prin Des& Impl Prog Lang",Pantoja,Maria,COEN
+COEN171,30979,"Prin Des& Impl Prog Lang",Pantoja,Maria,COEN
+COEN175,30942,"Int/Fml Lng Thy&Cmplcnst",Atkinson,"Darren C",COEN
+COEN175,30991,"Int/Fml Lng Thy&Cmplcnst",Atkinson,"Darren C",COEN
+COEN175L,30961,"Int/Fml Lng Thy&Cmplcnst Lab",Atkinson,"Darren C",COEN
+COEN175L,30962,"Int/Fml Lng Thy&Cmplcnst Lab",Atkinson,"Darren C",COEN
+COEN175L,30992,"Int/Fml Lng Thy&Cmplcnst Lab",Atkinson,"Darren C",COEN
+COEN177,32301,"Operating Systems",Amer,"Ahmed M",COEN
+COEN177L,32302,"Operating Systems Lab",Amer,"Ahmed M",COEN
+COEN177L,32303,"Operating Systems Lab",Amer,"Ahmed M",COEN
+COEN179,30965,"Theory of Algorithms",Walden,"Byron L",COEN
+COEN195,30945,"Design Project II",Pantoja,Maria,COEN
+COEN195,30948,"Design Project II",Atkinson,"Darren C",COEN
+COEN195,30949,"Design Project II",Amouzgar,"Mahmoud Moe",COEN
+COEN195,30966,"Design Project II",Amer,"Ahmed M",COEN
+COEN195,30971,"Design Project II",Shang,Weijia,COEN
+COEN195,30976,"Design Project II",Figueira,"Silvia Maria B",COEN
+COEN195,30980,"Design Project II",Steichen,Ben,COEN
+COEN195,30984,"Design Project II",Kitts,"Christopher A",COEN
+COEN195,30993,"Design Project II",Liu,Yuhong,COEN
+COEN195,32448,"Design Project II",Danielson,"Ronald L",COEN
+ELEN21,31155,"Introduction to Logic Design",Krishnan,Shoba,ELEN
+ELEN21,31173,"Introduction to Logic Design",Kim,"Ha Yang",ELEN
+ELEN21,32112,"Introduction to Logic Design",Ogunfunmi,Tokunbo,ELEN
+ELEN21L,31156,"Logic Design Lab",Krishnan,Shoba,ELEN
+ELEN21L,31157,"Logic Design Lab",Krishnan,Shoba,ELEN
+ELEN21L,31164,"Logic Design Lab",Krishnan,Shoba,ELEN
+ELEN21L,31174,"Logic Design Lab",Krishnan,Shoba,ELEN
+ELEN21L,32113,"Logic Design Lab",Krishnan,Shoba,ELEN
+ELEN33,31158,"Digital System Architectures",,ELEN
+ELEN33L,31159,"Digital System ArchitectureLab",,ELEN
+ELEN33L,31165,"Digital System ArchitectureLab",,ELEN
+ELEN50,31136,"Electric Circuits I",Healy,"Timothy J",ELEN
+ELEN50,31137,"Electric Circuits I",Hudgens,"Stephen J",ELEN
+ELEN50,31140,"Electric Circuits I",Hudgens,"Stephen J",ELEN
+ELEN50L,31141,"Electric Circuits I Lab",Healy,"Timothy J",ELEN
+ELEN50L,31142,"Electric Circuits I Lab",Healy,"Timothy J",ELEN
+ELEN50L,31143,"Electric Circuits I Lab",Healy,"Timothy J",ELEN
+ELEN50L,31144,"Electric Circuits I Lab",Hudgens,"Stephen J",ELEN
+ELEN50L,31147,"Electric Circuits I Lab",Hudgens,"Stephen J",ELEN
+ELEN100,31160,"Electric Circuits II",Zecevic,Aleksandar,ELEN
+ELEN100L,31161,"Electric Circuits II-Lab",Zecevic,Aleksandar,ELEN
+ELEN100L,31162,"Electric Circuits II-Lab",Zecevic,Aleksandar,ELEN
+ELEN105,32755,"Electromagnetics II",Abhari,Ramesh,ELEN
+ELEN105L,32756,"Electromagnetics II Lab",Abhari,Ramesh,ELEN
+ELEN105L,32941,"Electromagnetics II Lab",Abhari,Ramesh,ELEN
+ELEN123,31145,Mechatronics,Wolfe,Andrew,ELEN
+ELEN123L,31146,"Mechatronics Lab",Wolfe,Andrew,ELEN
+ELEN141,32304,"Communication Systems",Wilson,"Sarah Kate",ELEN
+ELEN141L,32305,"Communication Systems Lab",Wilson,"Sarah Kate",ELEN
+ELEN151,31139,"Semiconductor Devices",Yang,"Cary Y",ELEN
+ELEN151L,31148,"Semiconductor Devices Lab",Yang,"Cary Y",ELEN
+ELEN151L,31149,"Semiconductor Devices Lab",Yang,"Cary Y",ELEN
+ELEN167,32600,"Medical Imaging Systems",Wood,"Sally L",ELEN
+ELEN182,32886,"Energy Systems Design",,ELEN
+ELEN195,31138,"Design Project II",Wood,"Sally L",ELEN
+ENGR1,31231,"Intro to Engineering",Kuczenski,"Jessica Anderson",ENGR
+ENGR1,31232,"Intro to Engineering",Kuczenski,"Jessica Anderson",ENGR
+ENGR1L,31233,"Intro to Engineering Lab",Kuczenski,"Jessica Anderson",ENGR
+ENGR1L,31234,"Intro to Engineering Lab",Kuczenski,"Jessica Anderson",ENGR
+ENGR1L,31235,"Intro to Engineering Lab",Kuczenski,"Jessica Anderson",ENGR
+ENGR1L,31236,"Intro to Engineering Lab",Kuczenski,"Jessica Anderson",ENGR
+ENGR1L,32584,"Intro to Engineering Lab",Kuczenski,"Jessica Anderson",ENGR
+ENGR19,31229,"Ethics in Technology",Evans,"Daja Elen",ENGR
+ENGR19,31239,"Ethics in Technology",Evans,"Daja Elen",ENGR
+ENGR90,32306,"Engineering Competition Worksh",Hight,"Timothy K",ENGR
+ENGR110,31230,"Community Based Engr. Design",Kuczenski,"Jessica Anderson",ENGR
+ENGR111,31241,"STEM Outreach in the Community",Mullin,"Jennifer Susan",ENGR
+ENGR111,31248,"STEM Outreach in the Community",Mullin,"Jennifer Susan",ENGR
+ENGR111,31249,"STEM Outreach in the Community",Mullin,"Jennifer Susan",ENGR
+ENGR111,32115,"STEM Outreach in the Community",Mullin,"Jennifer Susan",ENGR
+ENGR143H,31244,Science," Religion"," Knowledge",Zecevic,Aleksandar,ENGR
+ENGR170,31237,"Improv for Engineers",Hill,"Kimberly I",ENGR
+ENGR171A,31243,"Product Opportunity Assessment",Rogers,"Shane Patrick",ENGR
+ENGR173,31242,"Intro to Business Fundamentals",Batterton,"John C",ENGR
+ENGR176,31245,"Marketing Strategy",Weiner,"Mark Allan",ENGR
+ENGR178,31246,"IP For Engineers",Norris,"Laura Lee M",ENGR
+MECH11,32904,"Materials & Manufactur Process",Sepehrband,Panthea,MECH
+MECH15,32116,"Intro to Material Science",Marks,"Robert A",MECH
+MECH15L,31418,"Intro to Material Science Lab",Marks,"Robert A",MECH
+MECH15L,31419,"Intro to Material Science Lab",Marks,"Robert A",MECH
+MECH15L,31432,"Intro to Material Science Lab",Marks,"Robert A",MECH
+MECH15L,31443,"Intro to Material Science Lab",Marks,"Robert A",MECH
+MECH101L,32307,"Machining Lab",MacCubbin,"Donald M",MECH
+MECH101L,32308,"Machining Lab",MacCubbin,"Donald M",MECH
+MECH114,31422,"Machine Design I",Shoup,"Terry E",MECH
+MECH121,31430,"Thermodynamics I",Pak,"On Shun",MECH
+MECH123,31423,"Heat Transfer",Lee,Hohyun,MECH
+MECH123,31434,"Heat Transfer",Djordjevic,Nikola,MECH
+MECH123L,31424,"Heat Transfer Lab",Lee,Hohyun,MECH
+MECH123L,31425,"Heat Transfer Lab",Lee,Hohyun,MECH
+MECH123L,31428,"Heat Transfer Lab",Djordjevic,Nikola,MECH
+MECH123L,31435,"Heat Transfer Lab",Djordjevic,Nikola,MECH
+MECH141,31414,"Mechanical Vibrations",Taylor,"Michael James",MECH
+MECH141,31417,"Mechanical Vibrations",Taylor,"Michael James",MECH
+MECH141L,31421,"Mechanical Vibrations Lab",Taylor,"Michael James",MECH
+MECH141L,31429,"Mechanical Vibrations Lab",Ayoubi,"Mohammad Ali",MECH
+MECH141L,31436,"Mechanical Vibrations Lab",Tszeng,"T. Calvin",MECH
+MECH141L,32117,"Mechanical Vibrations Lab",Tszeng,"T. Calvin",MECH
+MECH143,32882,Mechatronics,Wolfe,Andrew,MECH
+MECH143L,32883,"Mechatronics Lab",Wolfe,Andrew,MECH
+MECH145,31442,"Introduction to Aerospace Engr",Djordjevic,Nikola,MECH
+MECH146,31433,"Mechanism Design",Tszeng,"T. Calvin",MECH
+MECH153,32310,"Aerospace Structures",,MECH
+MECH179,32907,"Satellite Operations Lab",Kitts,"Christopher A",MECH
+MECH191,31431,"Senior Design Manufacturing",Sellers,Calvin,MECH
+MECH195,31415,"Advanced Design II:Implementat",Hight,"Timothy K",MECH
